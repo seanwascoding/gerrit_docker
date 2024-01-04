@@ -1,0 +1,11 @@
+[plugin "gerrit-oauth-provider-github-oauth"]
+  root-url = https://github.com
+  client-id = 9a6e4515e74a333955e3
+  client-secret = 83e0414c28d12b74277e42c4b8ee225c24b14476
+  fix-legacy-user-id = false
+
+gerrit.config => type = development_become_any_account => access any accout
+
+issue:
+1.auth: ldap or github(third-party) => use group to solve problem
+2.sendemail(in gerrit.config) => send to admin-email
